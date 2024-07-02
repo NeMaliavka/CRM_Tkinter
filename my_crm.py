@@ -13,10 +13,10 @@ HEIGHT = 900
 root.geometry(f'{int(WIDTH / 2)}x{int(HEIGHT / 3)}')
 root.title('CRM')
 
-date = {'Mon':{'10:20':['Степан Прудников'],
-               '12:20':['Аскар Бессолицин'],
-               '13:00':['Овчинников Мирон'],
-               '15:00':['Весенёв Артемий', 'Пономарёв Денис']}}
+date = {'Mon':{'10:20':['studen1'],
+               '12:20':['studen2'],
+               '13:00':['studen3'],
+               '15:00':['studen4', 'studen5']}}
 try:
     file = open('my_work.txt', 'r', encoding='utf_8')
 except:
